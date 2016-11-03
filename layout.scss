@@ -1,0 +1,46 @@
+body, .markdown-body {
+  font-family: 'Georgia', 'Source Han Sans CN', 'Xin Gothic', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+  }
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+.block-sidebar {
+  .widget {
+    margin-bottom: 20px;
+
+    p {
+      margin-top: 0.4em;
+      margin-bottom: 0.4em;
+    }
+  }
+
+  .toc {
+    ol {
+      list-style-type: disc;
+    }
+
+    li {
+      line-height: 1.8em;
+    }
+
+    .toc-number {
+      display: none;
+    }
+
+    .toc-item {
+      &.toc-level-2 {
+        margin-left: 20px;
+      }
+
+      &.toc-level-3 {
+        margin-left: 30px;
+      }
+    }
+  }
+}
